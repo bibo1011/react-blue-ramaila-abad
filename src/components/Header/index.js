@@ -26,13 +26,15 @@ function Header() {
                 />
                 <div className="section white">
                     <div className="row container">
-                        <h2 className="header">
-                            Blue Ramaila Abad
-      </h2>
-                        <p className="grey-text text-darken-3 lighten-3">
-                            Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.
-      </p>
-                        <img alt="circle-blue" src={require("../../assets/images/me.png").default} style={{borderRadius: "50%"}} />
+                        <div className="col s6">
+                            <h2 className="header">Blue Ramaila Abad</h2>
+                            <p className="grey-text text-darken-3 lighten-3">
+                                Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.
+                            </p>
+                        </div>
+                        <div className="col s6" style={{padding:"2% 0 0 30%"}}> 
+                            <img alt="circle-blue" src={require("../../assets/images/me-round.png").default} style={{borderRadius: "50%", width:"100%"}} />
+                        </div>
                     </div>
                 </div>
                 <Parallax
