@@ -66,11 +66,17 @@ body {
 }
 header {
   position: relative;
-  padding: 0 0 60% 0;
-  display: flex;
+  padding: 0 0 0 0;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+#portfolio {
+  background-color: #565656;
+
+}
+#resume {
+  background-color: #0000;
 }
 footer {
   position: relative;
@@ -96,13 +102,13 @@ footer {
 .navActive {
   color: var(--secondary);
 }
-.resume {
+/* .resume {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex: wrap;
   padding: 2% 10% 16% 5%;
-}
+} */
 .list {
   margin: 0;
   padding: 0;
