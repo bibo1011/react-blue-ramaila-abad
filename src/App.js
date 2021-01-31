@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
       <Header></Header>
-      {/* <About></About> */}
       <Portfolio></Portfolio>
       <Resume></Resume>
       <Footer></Footer>

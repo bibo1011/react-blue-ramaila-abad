@@ -1,7 +1,7 @@
 import React from 'react';
 import "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
-import { Row, Col, Collection, CollectionItem } from 'react-materialize';
+import { Row, Col, Collection, CollectionItem, Card, Icon } from 'react-materialize';
 import Button from 'react-materialize/lib/Button';
 
 function Resume() {
@@ -11,7 +11,26 @@ function Resume() {
                 <Col  m={6}
                     s={12}
                     >
-                adf
+                    <div style={{display:"flex", justifyContent:"center", paddingTop:"50px"}} >
+                        <Card
+                        actions={[
+                            <a >San Jose, CA 95127</a>,
+                            <br></br>,
+                            <a >(408) 834-9225</a>,
+                            <br></br>,
+                            <a >bibo_1011@yahoo.com</a>,
+                            <br></br>,
+                            <a >follow me on links below</a>
+                        ]}
+                        className="blue-grey darken-1"
+                        closeIcon={<Icon>close</Icon>}
+                        revealIcon={<Icon>more_vert</Icon>}
+                        textClassName="white-text"
+                        title="Contact Details"
+                        >
+                        <h5>Blue Ramaila Abad</h5>
+                        </Card>
+                    </div>
                 </Col>
                 <Col
                     m={3}
@@ -66,7 +85,7 @@ function Resume() {
                 <Col m={3} s={12}>
                     <div style={{display:"flex", justifyContent:"center", paddingTop:"100px"}} >
 
-                            <Button large node="a" className="grey darken-3 "><a target="_blank" href={require(`../../assets/documents/blue-VehTestOps.pdf`).default} >
+                            <Button large node="a" className="grey darken-3 "><a target="_blank" href={require(`../../assets/documents/BLUE-WebDev.pdf`).default} >
                                 <i className="fa fa-download"></i> Download Resume</a>
                             </Button>
                       
