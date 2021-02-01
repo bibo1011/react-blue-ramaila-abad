@@ -11,7 +11,7 @@ function Resume() {
                 <Col  m={6}
                     s={12}
                     >
-                    <div style={{display:"flex", justifyContent:"center", paddingTop:"50px"}} >
+                    <div style={{display:"flex", justifyContent:"center", paddingTop:"50px" }} >
                         <Card
                         actions={[
                             <a >San Jose, CA 95127</a>,
@@ -20,13 +20,21 @@ function Resume() {
                             <br></br>,
                             <a >bibo_1011@yahoo.com</a>,
                             <br></br>,
-                            <a >follow me on links below</a>
+                            <a >follow me</a>,
+                            <ul className="social-link"> 
+                                <li><a target="_blank" href="mailto:bibo_1011@yahoo.com"><i className="small fas fa-envelope"></i></a></li>
+                                <li><a target="_blank" href="https://github.com/bibo1011"><i className="small fab fa-github"></i></a></li>
+
+                                <li><a target="_blank" href="https://www.facebook.com/bibo1011/"><i className="small fab fa-facebook"></i></a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/channel/UCejBxvVwKs7Or6Yv6T9DKGw?view_as=subscriber"><i className="small fab fa-youtube"></i></a></li>
+                            </ul>
                         ]}
                         className="blue-grey darken-1"
                         closeIcon={<Icon>close</Icon>}
                         revealIcon={<Icon>more_vert</Icon>}
                         textClassName="white-text"
                         title="Contact Details"
+                        style={{ height: "325px", width: "500px"}}
                         >
                         <h5>Blue Ramaila Abad</h5>
                         </Card>
@@ -95,28 +103,6 @@ function Resume() {
             </Row>
 
         </section>
-
-        // <div className="resume" id="resume">
-        //     <div className="list">
-        //         <h6>List of proficiencies</h6>
-        //         <ul>
-        //             <li>HTML</li>
-        //             <li>CSS</li>
-        //             <li>Git</li>
-        //             <li>Javascript</li>
-        //             <li>API</li>
-        //             <li>Node.js</li>
-        //             <li>Express.js</li>
-        //             <li>ORM</li>
-        //             <li>MVC</li>
-        //             <li>PWA</li>
-        //             <li>React</li>
-        //         </ul>
-        //     </div>
-        //     <div className="download">
-        //         <h6> download my resume here <a target="_blank" href={require(`../../assets/documents/blue-VehTestOps.pdf`).default} ><i class="far fa-file"></i></a></h6>
-        //     </div>
-        // </div>
     )
 }
 

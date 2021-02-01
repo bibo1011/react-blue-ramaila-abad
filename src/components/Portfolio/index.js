@@ -9,34 +9,39 @@ function Portfolio() {
     const [projectList, setProjectList] = useState(projects)
     return (
         <section id="portfolio">             
-             <div className="container" style={{padding:"100px 0 100px 0", textAlign:"center"}}>
+             <div className="container" style={{padding:"10px 0 10px 0", textAlign:"center"}}>
 
 
                 
-                {/* <Slider
+                <Slider
                     fullscreen={false}
                     options={{
                         duration: 500,
-                        height: 400,
-                        indicators: false,
+                        height: 800,
+                        indicators: true,
                         interval: 4000
                     }}
                 >
                     {projectList.map(project => (
-                    <Slide image={<img alt="" src={require(`../../assets/images/${project.id}/${project.id}.png`).default}/>}>
-                        <Caption placement="center" >
-                            <h3>{project.title}</h3>     
-                            <h3><a href={project.link} className="grey-text text-lighten-3">{project.link} </a></h3>
+                    <Slide image={<a href={project.link} target="_blank"><img alt="" src={require(`../../assets/images/${project.id}/${project.id}.png`).default}/></a>}>
+                        <Caption placement="left"  >
+                            <div style={{marginTop:"500px", backgroundColor:"dark blue"}}>
+                                <div className="yellow-text text-darken-3 ">
+                                    <h3>{project.title}</h3>
+                                    <h6><a href={project.github} target="_blank">{project.github}</a></h6>     
+                                    <h6><em><a href={project.link} target="_blank">{project.link}</a></em></h6>
+                                </div>
+                            </div>
                         </Caption>
                     </Slide>
                     ))}
                     
-                </Slider> */}
+                </Slider>
             
             
             
             
-            <Carousel
+            {/* <Carousel
                 
                 carouselId="Carousel-2"
                 
@@ -54,7 +59,7 @@ function Portfolio() {
                     padding: 0,
                     shift: 0
                 }}
-            />
+            /> */}
             
             </div>
         </section>
