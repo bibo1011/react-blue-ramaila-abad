@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/react-blue-ramaila-abad/static/css/main.d94d7734.chunk.css",
+    "main.js": "/react-blue-ramaila-abad/static/js/main.c3a2497d.chunk.js",
+    "main.js.map": "/react-blue-ramaila-abad/static/js/main.c3a2497d.chunk.js.map",
+    "runtime-main.js": "/react-blue-ramaila-abad/static/js/runtime-main.9b44cfac.js",
+    "runtime-main.js.map": "/react-blue-ramaila-abad/static/js/runtime-main.9b44cfac.js.map",
+    "static/css/2.0a49d93f.chunk.css": "/react-blue-ramaila-abad/static/css/2.0a49d93f.chunk.css",
+    "static/js/2.7b9b3f25.chunk.js": "/react-blue-ramaila-abad/static/js/2.7b9b3f25.chunk.js",
+    "static/js/2.7b9b3f25.chunk.js.map": "/react-blue-ramaila-abad/static/js/2.7b9b3f25.chunk.js.map",
+    "static/js/3.80a1eeae.chunk.js": "/react-blue-ramaila-abad/static/js/3.80a1eeae.chunk.js",
+    "static/js/3.80a1eeae.chunk.js.map": "/react-blue-ramaila-abad/static/js/3.80a1eeae.chunk.js.map",
+    "index.html": "/react-blue-ramaila-abad/index.html",
+    "static/css/2.0a49d93f.chunk.css.map": "/react-blue-ramaila-abad/static/css/2.0a49d93f.chunk.css.map",
+    "static/css/main.d94d7734.chunk.css.map": "/react-blue-ramaila-abad/static/css/main.d94d7734.chunk.css.map",
+    "static/js/2.7b9b3f25.chunk.js.LICENSE.txt": "/react-blue-ramaila-abad/static/js/2.7b9b3f25.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/react-blue-ramaila-abad/static/media/1.e4082eba.png",
+    "static/media/2.png": "/react-blue-ramaila-abad/static/media/2.713c6e5c.png",
+    "static/media/3.png": "/react-blue-ramaila-abad/static/media/3.153661a9.png",
+    "static/media/4.png": "/react-blue-ramaila-abad/static/media/4.36d6a20c.png",
+    "static/media/5.png": "/react-blue-ramaila-abad/static/media/5.0439b26e.png",
+    "static/media/6.png": "/react-blue-ramaila-abad/static/media/6.666fe558.png",
+    "static/media/7.png": "/react-blue-ramaila-abad/static/media/7.972ea993.png",
+    "static/media/BLUE-WebDev.pdf": "/react-blue-ramaila-abad/static/media/BLUE-WebDev.5ad9f6ef.pdf",
+    "static/media/ch20ss1.png": "/react-blue-ramaila-abad/static/media/ch20ss1.606943c3.png",
+    "static/media/ch20ss2.png": "/react-blue-ramaila-abad/static/media/ch20ss2.ac62a0ed.png",
+    "static/media/ch20ss3.png": "/react-blue-ramaila-abad/static/media/ch20ss3.1c4bad4a.png",
+    "static/media/me-round.png": "/react-blue-ramaila-abad/static/media/me-round.3774d095.png",
+    "static/media/me.png": "/react-blue-ramaila-abad/static/media/me.2c0defb9.png",
+    "static/media/pexels-dominika-roseclay-5462214.jpg": "/react-blue-ramaila-abad/static/media/pexels-dominika-roseclay-5462214.0d526b4a.jpg",
+    "static/media/pexels-elina-sazonova-2072600.jpg": "/react-blue-ramaila-abad/static/media/pexels-elina-sazonova-2072600.2cf5e1de.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b44cfac.js",
+    "static/css/2.0a49d93f.chunk.css",
+    "static/js/2.7b9b3f25.chunk.js",
+    "static/css/main.d94d7734.chunk.css",
+    "static/js/main.c3a2497d.chunk.js"
+  ]
+}
