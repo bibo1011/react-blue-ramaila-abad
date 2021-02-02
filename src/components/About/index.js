@@ -2,16 +2,21 @@ import React from 'react';
 
 function About() {
     return (
-        <section>
-            <div className="brand" id="about">
-                <p>
-                    Hi! I'm <span className="blue">Blue</span>... <br></br>
-                As of this moment, I'm a Spacecraft Technician at Lockheed Martin <br></br>
-                At the same time, a student of UC Berkeley Full Stack Coding Bootcamp <br></br>
-                Mechanically inclined, a handyman, future of software...
-                </p >
-                <img className="iam" alt="blue" src={require('../../assets/images/me.png').default }/>
-            </div >
+        <section id="about">
+            <div className="section white">
+                    <div className="row container">
+                        <div className="col s6">
+                            <h2 className="header">Blue Ramaila Abad</h2>
+                            <p className="grey-text text-darken-3 lighten-3">
+                                an aspiring software developer with a background of space technology. 
+                            </p>
+                        </div>
+                        <div className="col s6" style={{padding:"2% 0 0 30%"}}> 
+                            <img alt="circle-blue" src={require("../../assets/images/me-round.png").default} style={{borderRadius: "50%", width:"100%"}} />
+                        </div>
+                    </div>
+                </div>
+
         </section >
     )
 }

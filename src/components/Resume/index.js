@@ -64,27 +64,27 @@ function Resume() {
                 
                         </CollectionItem>
                         <CollectionItem>
-                            Javascript
-    
-                                <i style={{color:"black"}} className="secondary-content small fab fa-js-square"></i>
-                    
-                        </CollectionItem>
-                        <CollectionItem>
                             React
     
                                 <i style={{color:"black"}} className="secondary-content small fab fa-react"></i>
                     
                         </CollectionItem>
                         <CollectionItem>
-                            Nodejs
+                            Javascript
     
-                                <i style={{color:"black"}} className="secondary-content small fab fa-node-js"></i>
+                                <i style={{color:"black"}} className="secondary-content small fab fa-js-square"></i>
                     
                         </CollectionItem>
                         <CollectionItem>
                             Expressjs
     
                                 <i style={{color:"black"}} className="secondary-content small fab fa-js-square"></i>
+                    
+                        </CollectionItem>
+                        <CollectionItem>
+                            Nodejs
+    
+                                <i style={{color:"black"}} className="secondary-content small fab fa-node-js"></i>
                     
                         </CollectionItem>
                     </Collection>

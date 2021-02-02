@@ -26,11 +26,14 @@ function Nav(props) {
                         preventScrolling: true
                     }}
                 >
-                    <NavItem onClick={function noRefCheck() { }} href="#portfolio">
+                    <NavItem onClick={function noRefCheck() { }} href="#about">
+                        About
+  </NavItem>
+                    <NavItem href="#portfolio">
                     Portfolio
   </NavItem>
                     <NavItem href="#resume">
-                    Resume 
+                        Resume
   </NavItem>
                 </Navbar>
             </nav>
