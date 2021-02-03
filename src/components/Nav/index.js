@@ -11,7 +11,7 @@ function Nav(props) {
                 <Navbar
                     className="Header grey darken-3"
                     alignLinks="left"
-                    brand={<a className="brand-logo right" href="/about"><Icon>star</Icon></a>}
+                    brand={<a className="brand-logo right zoom" href="/about"><Icon>star</Icon></a>}
                     id="mobile-nav"
                     menuIcon={<Icon>menu</Icon>}
                     options={{
