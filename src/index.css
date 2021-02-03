@@ -14,30 +14,10 @@ code {
 
 
 /* convert to component style css  */
-#portfolio {
-  background-color: #565656;
 
-}
-#resume {
+#contact {
   background-color: #0000;
 }
-/* footer {
-  position: relative;
-  padding: 50px 0 50px 0;
-  background-color: #565656;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* .box-right-contact {
-  display: flex; 
-  justify-content: space-evenly;
-  flex: 2 70%;
-  margin: 0 20% 0 20%;
-  font-size: 2rem;
-} */
 
 .social-link {
   -webkit-column-count: 4;
@@ -48,4 +28,6 @@ code {
   padding-top: 10px;
 }
 
-
+.slides li {
+  background-color: black;
+}

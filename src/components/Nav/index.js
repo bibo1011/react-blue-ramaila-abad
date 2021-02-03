@@ -29,11 +29,11 @@ function Nav(props) {
                     <NavItem onClick={function noRefCheck() { }} href="#about">
                         About
   </NavItem>
-                    <NavItem href="#portfolio">
-                    Portfolio
+                    <NavItem href="#projects">
+                    Projects
   </NavItem>
-                    <NavItem href="#resume">
-                        Resume
+                    <NavItem href="#contact">
+                        Contact
   </NavItem>
                 </Navbar>
             </nav>

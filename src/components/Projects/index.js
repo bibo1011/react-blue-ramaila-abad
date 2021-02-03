@@ -4,14 +4,13 @@ import "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
 import { Carousel, Slide, Slider, Caption } from 'react-materialize';
 
-function Portfolio() {
+function Projects() {
 
     const [projectList, setProjectList] = useState(projects)
     return (
-        <section id="portfolio">             
-             <div className="container" style={{padding:"10px 0 10px 0", textAlign:"center"}}>
-
-
+        <section id="projects" className="container" style={{paddingTop:"100px"}}>             
+             <div >
+             
                 
                 <Slider
                     fullscreen={false}
@@ -19,11 +18,12 @@ function Portfolio() {
                         duration: 500,
                         height: 800,
                         indicators: true,
-                        interval: 4000
+                        interval: 4000,
                     }}
+                    
                 >
                     {projectList.map(project => (
-                    <Slide image={<a href={project.link} target="_blank"><img alt="" src={require(`../../assets/images/${project.id}/${project.id}.png`).default}/></a>}>
+                    <Slide image={<a href={project.link} target="_blank"><img style={{height:"70%"}} alt="" src={require(`../../assets/images/${project.id}/${project.id}.png`).default} /></a>}>
                         <Caption placement="left"  >
                             <div style={{marginTop:"500px", backgroundColor:"dark blue"}}>
                                 <div className="yellow-text text-darken-3 ">
@@ -66,4 +66,4 @@ function Portfolio() {
     );
 }
 
-export default Portfolio
+export default Projects

@@ -5,7 +5,7 @@ import { Row, Col, Collection, CollectionItem, Card, Icon } from 'react-material
 
 function Footer() {
     return (
-        <footer >
+        <footer style={{paddingTop:"150px"}} >
             {/* <div className="box-right-contact">
                 <a target="_blank" href="mailto:bibo_1011@yahoo.com"><i className="fas fa-envelope"></i></a>
                 <a target="_blank" href="https://github.com/bibo1011"><i className="fab fa-github"></i></a>

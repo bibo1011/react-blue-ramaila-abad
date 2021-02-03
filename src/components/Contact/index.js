@@ -4,9 +4,9 @@ import "materialize-css/dist/css/materialize.min.css";
 import { Row, Col, Collection, CollectionItem, Card, Icon } from 'react-materialize';
 import Button from 'react-materialize/lib/Button';
 
-function Resume() {
+function Contact() {
     return (
-        <section id="resume" >
+        <section id="contact" style={{paddingTop:"250px"}}>
             <Row >
                 <Col  m={6}
                     s={12}
@@ -106,4 +106,4 @@ function Resume() {
     )
 }
 
-export default Resume
+export default Contact
