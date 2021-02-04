@@ -7,11 +7,11 @@ function Nav(props) {
     return (
 
         <div >
-            <nav >
+           
                 <Navbar
                     className="Header grey darken-3"
                     alignLinks="left"
-                    brand={<a className="brand-logo right zoom" href="/about"><Icon>star</Icon></a>}
+                    brand={<a className="brand-logo right zoom" href="#about"><Icon>star</Icon></a>}
                     id="mobile-nav"
                     menuIcon={<Icon>menu</Icon>}
                     options={{
@@ -26,17 +26,17 @@ function Nav(props) {
                         preventScrolling: true
                     }}
                 >
-                    <NavItem onClick={function noRefCheck() { }} href="#about">
-                        About
+                    <NavItem onClick={function noRefCheck() {}} href="#about">
+                    About
   </NavItem>
-                    <NavItem href="#projects">
+                    <NavItem href="#proj">
                     Projects
   </NavItem>
                     <NavItem href="#contact">
-                        Contact
+                    Contact
   </NavItem>
                 </Navbar>
-            </nav>
+           
         </div>
     );
 }

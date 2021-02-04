@@ -24,7 +24,7 @@ function Contact() {
                             <ul className="social-link"> 
                                 <li><a target="_blank" href="mailto:bibo_1011@yahoo.com"><i className="small fas fa-envelope zoom"></i></a></li>
                                 <li><a target="_blank" href="https://github.com/bibo1011"><i className="small fab fa-github zoom"></i></a></li>
-
+                                <li><a target="_blank" href="https://www.linkedin.com/in/blue-ramaila-abad/"><i className="small fab fa-linkedin zoom"></i></a></li>
                                 <li><a target="_blank" href="https://www.facebook.com/bibo1011/"><i className="small fab fa-facebook zoom"></i></a></li>
                                 <li><a target="_blank" href="https://www.youtube.com/channel/UCejBxvVwKs7Or6Yv6T9DKGw?view_as=subscriber"><i className="small fab fa-youtube zoom"></i></a></li>
                             </ul>

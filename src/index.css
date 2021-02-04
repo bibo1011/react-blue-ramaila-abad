@@ -15,10 +15,6 @@ code {
 
 /* convert to component style css  */
 
-#contact {
-  background-color: #0000;
-}
-
 .social-link {
   -webkit-column-count: 4;
   -moz-column-count: 4;

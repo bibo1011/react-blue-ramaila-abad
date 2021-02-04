@@ -8,7 +8,7 @@ function Projects() {
 
     const [projectList, setProjectList] = useState(projects)
     return (
-        <section id="projects" className="container" style={{paddingTop:"100px"}}>             
+        <section id="proj" className="container" style={{paddingTop:"100px"}}>             
              <div >
              
                 
