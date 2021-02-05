@@ -4,12 +4,13 @@ import "materialize-css/dist/css/materialize.min.css";
 import { NavItem, Navbar, Icon } from 'react-materialize';
 
 function Nav() {
+    
     return (
 
         <div >
            
                 <Navbar
-                    className="Header grey darken-3"
+                    className="Header grey darken-3 "
                     alignLinks="left"
                     brand={<a className="brand-logo right zoom" href="#about"><Icon>star</Icon></a>}
                     id="mobile-nav"
@@ -27,13 +28,13 @@ function Nav() {
                         preventScrolling: true
                     }}
                 >
-                    <NavItem onClick={function noRefCheck() {}} href="#about">
+                    <NavItem onClick={function noRefCheck() {}} href="#about" className="sidenav-close">
                     About
   </NavItem>
-                    <NavItem href="#proj">
+                    <NavItem href="#proj" className="sidenav-close">
                     Projects
   </NavItem>
-                    <NavItem href="#contact">
+                    <NavItem href="#contact" className="sidenav-close">
                     Contact
   </NavItem>
                 </Navbar>
