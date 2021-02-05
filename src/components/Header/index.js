@@ -9,7 +9,7 @@ function Header() {
 
     return (
         <header>
-            <div className="navbar-fixed" >
+            <div >
                 <Nav />
             </div>
             <div>

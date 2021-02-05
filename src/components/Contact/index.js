@@ -20,7 +20,7 @@ function Contact() {
                             <br></br>,
                             <a >bibo_1011@yahoo.com</a>,
                             <br></br>,
-                            <a >follow me</a>,
+                            <a >Let's connect</a>,
                             <ul className="social-link"> 
                                 <li><a target="_blank" href="mailto:bibo_1011@yahoo.com"><i className="small fas fa-envelope zoom"></i></a></li>
                                 <li><a target="_blank" href="https://github.com/bibo1011"><i className="small fab fa-github zoom"></i></a></li>

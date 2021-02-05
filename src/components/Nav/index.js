@@ -3,7 +3,7 @@ import "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
 import { NavItem, Navbar, Icon } from 'react-materialize';
 
-function Nav(props) {
+function Nav() {
     return (
 
         <div >
@@ -14,6 +14,7 @@ function Nav(props) {
                     brand={<a className="brand-logo right zoom" href="#about"><Icon>star</Icon></a>}
                     id="mobile-nav"
                     menuIcon={<Icon>menu</Icon>}
+                    fixed="true"
                     options={{
                         draggable: true,
                         edge: 'left',
