@@ -4,7 +4,7 @@ import "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
 import { Carousel, Slide, Slider, Caption } from 'react-materialize';
 
-function Projects() {
+function Projects(props) {
 
     const [projectList, setProjectList] = useState(projects)
     return (

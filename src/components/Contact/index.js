@@ -14,13 +14,13 @@ function Contact() {
                     <div style={{display:"flex", justifyContent:"center", paddingTop:"50px" }} >
                         <Card
                         actions={[
-                            <a >San Jose, CA 95127</a>,
+                            <a>San Jose, CA 95127</a>,
                             <br></br>,
-                            <a >(408) 834-9225</a>,
+                            <a>(408) 834-9225</a>,
                             <br></br>,
-                            <a >bibo_1011@yahoo.com</a>,
+                            <a>bibo_1011@yahoo.com</a>,
                             <br></br>,
-                            <a >Let's connect</a>,
+                            <a>Let's connect</a>,
                             <ul className="social-link"> 
                                 <li><a target="_blank" href="mailto:bibo_1011@yahoo.com"><i className="small fas fa-envelope zoom"></i></a></li>
                                 <li><a target="_blank" href="https://github.com/bibo1011"><i className="small fab fa-github zoom"></i></a></li>
@@ -93,8 +93,8 @@ function Contact() {
                 <Col m={3} s={12}>
                     <div style={{display:"flex", justifyContent:"center", paddingTop:"100px"}} >
 
-                            <Button large node="a" className="grey darken-3 "><a target="_blank" href={require(`../../assets/documents/BLUE-WebDev.pdf`).default} >
-                                <i className="fa fa-download"></i> Download Resume</a>
+                            <Button large node="a" className="blue-text grey darken-3 " target="_blank" href={require(`../../assets/documents/BLUE-WebDev.pdf`).default} >
+                                <i className="fa fa-download"></i> Download Resume
                             </Button>
                       
                     </div>
