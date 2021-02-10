@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-blue-ramaila-abad/static/css/main.55ac2705.chunk.css",
-    "main.js": "/react-blue-ramaila-abad/static/js/main.c7c0b6bb.chunk.js",
-    "main.js.map": "/react-blue-ramaila-abad/static/js/main.c7c0b6bb.chunk.js.map",
+    "main.js": "/react-blue-ramaila-abad/static/js/main.3d8e7b9b.chunk.js",
+    "main.js.map": "/react-blue-ramaila-abad/static/js/main.3d8e7b9b.chunk.js.map",
     "runtime-main.js": "/react-blue-ramaila-abad/static/js/runtime-main.9b44cfac.js",
     "runtime-main.js.map": "/react-blue-ramaila-abad/static/js/runtime-main.9b44cfac.js.map",
     "static/css/2.0a49d93f.chunk.css": "/react-blue-ramaila-abad/static/css/2.0a49d93f.chunk.css",
@@ -35,6 +35,6 @@
     "static/css/2.0a49d93f.chunk.css",
     "static/js/2.7b9b3f25.chunk.js",
     "static/css/main.55ac2705.chunk.css",
-    "static/js/main.c7c0b6bb.chunk.js"
+    "static/js/main.3d8e7b9b.chunk.js"
   ]
 }
