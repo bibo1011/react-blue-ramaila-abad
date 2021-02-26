@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-blue-ramaila-abad/static/css/main.55ac2705.chunk.css",
-    "main.js": "/react-blue-ramaila-abad/static/js/main.f75b9fc0.chunk.js",
-    "main.js.map": "/react-blue-ramaila-abad/static/js/main.f75b9fc0.chunk.js.map",
+    "main.js": "/react-blue-ramaila-abad/static/js/main.f160ee21.chunk.js",
+    "main.js.map": "/react-blue-ramaila-abad/static/js/main.f160ee21.chunk.js.map",
     "runtime-main.js": "/react-blue-ramaila-abad/static/js/runtime-main.9b44cfac.js",
     "runtime-main.js.map": "/react-blue-ramaila-abad/static/js/runtime-main.9b44cfac.js.map",
     "static/css/2.0a49d93f.chunk.css": "/react-blue-ramaila-abad/static/css/2.0a49d93f.chunk.css",
-    "static/js/2.7b9b3f25.chunk.js": "/react-blue-ramaila-abad/static/js/2.7b9b3f25.chunk.js",
-    "static/js/2.7b9b3f25.chunk.js.map": "/react-blue-ramaila-abad/static/js/2.7b9b3f25.chunk.js.map",
+    "static/js/2.f7730e36.chunk.js": "/react-blue-ramaila-abad/static/js/2.f7730e36.chunk.js",
+    "static/js/2.f7730e36.chunk.js.map": "/react-blue-ramaila-abad/static/js/2.f7730e36.chunk.js.map",
     "static/js/3.80a1eeae.chunk.js": "/react-blue-ramaila-abad/static/js/3.80a1eeae.chunk.js",
     "static/js/3.80a1eeae.chunk.js.map": "/react-blue-ramaila-abad/static/js/3.80a1eeae.chunk.js.map",
     "index.html": "/react-blue-ramaila-abad/index.html",
     "static/css/2.0a49d93f.chunk.css.map": "/react-blue-ramaila-abad/static/css/2.0a49d93f.chunk.css.map",
     "static/css/main.55ac2705.chunk.css.map": "/react-blue-ramaila-abad/static/css/main.55ac2705.chunk.css.map",
-    "static/js/2.7b9b3f25.chunk.js.LICENSE.txt": "/react-blue-ramaila-abad/static/js/2.7b9b3f25.chunk.js.LICENSE.txt",
+    "static/js/2.f7730e36.chunk.js.LICENSE.txt": "/react-blue-ramaila-abad/static/js/2.f7730e36.chunk.js.LICENSE.txt",
     "static/media/1.png": "/react-blue-ramaila-abad/static/media/1.e4082eba.png",
     "static/media/2.png": "/react-blue-ramaila-abad/static/media/2.713c6e5c.png",
     "static/media/3.png": "/react-blue-ramaila-abad/static/media/3.153661a9.png",
@@ -21,7 +21,7 @@
     "static/media/5.png": "/react-blue-ramaila-abad/static/media/5.0439b26e.png",
     "static/media/6.png": "/react-blue-ramaila-abad/static/media/6.666fe558.png",
     "static/media/7.png": "/react-blue-ramaila-abad/static/media/7.972ea993.png",
-    "static/media/blue-WebDev.pdf": "/react-blue-ramaila-abad/static/media/blue-WebDev.4aed2245.pdf",
+    "static/media/blue-WebDev.pdf": "/react-blue-ramaila-abad/static/media/blue-WebDev.5053c960.pdf",
     "static/media/ch20ss1.png": "/react-blue-ramaila-abad/static/media/ch20ss1.606943c3.png",
     "static/media/ch20ss2.png": "/react-blue-ramaila-abad/static/media/ch20ss2.ac62a0ed.png",
     "static/media/ch20ss3.png": "/react-blue-ramaila-abad/static/media/ch20ss3.1c4bad4a.png",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.9b44cfac.js",
     "static/css/2.0a49d93f.chunk.css",
-    "static/js/2.7b9b3f25.chunk.js",
+    "static/js/2.f7730e36.chunk.js",
     "static/css/main.55ac2705.chunk.css",
-    "static/js/main.f75b9fc0.chunk.js"
+    "static/js/main.f160ee21.chunk.js"
   ]
 }
