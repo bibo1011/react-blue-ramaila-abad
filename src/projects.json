@@ -3,21 +3,30 @@
         "id": 1,
         "title": "Plenty of Brew",
         "image": "./assets/images/1/1.png",
+        "description": "Search application for local breweries around the city. Results include a link to their website, their location and contact number of the brewery.",
         "link": "https://koneruteja.github.io/plenty-of-brew/",
-        "github": "https://github.com/bibo1011/plenty-of-brew"
+        "github": "https://github.com/bibo1011/plenty-of-brew",
+        "tool1": "\"fab fa-html5 small\"",
+        "tool2": "\"fab fa-css3-alt small\""
     },
     {
         "id": 2,
         "title": "Simple MRP",
         "image": "./assets/images/2/2.png",
+        "description": "Material requirement planning application that allows a small manufacturing company keep track of their material inventory.",
         "link": "https://simple-mrp-hameed1239.herokuapp.com/",
-        "github": "https://github.com/bibo1011/simple-mrp"
+        "github": "https://github.com/bibo1011/simple-mrp",
+        "tool1": "\"fab fa-html5 small\"",
+        "tool2": "\"fab fa-css3-alt small\""
     },
     {
         "id": 3,
         "title": "TransferCard",
         "image": "./assets/image/3/3.png",
+        "description": "Contactless virtual train ticket. Online purchasing app and wallet for train tickets.",
         "link": "https://transfercard.herokuapp.com/",
-        "github": "https://github.com/itsrheine/transferCard"
+        "github": "https://github.com/itsrheine/transferCard",
+        "tool1": "\"fab fa-html5 small\"",
+        "tool2": "\"fab fa-css3-alt small\""
     }
 ]
