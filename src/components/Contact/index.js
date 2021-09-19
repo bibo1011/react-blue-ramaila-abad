@@ -93,7 +93,7 @@ function Contact() {
                 <Col m={3} s={12}>
                     <div style={{display:"flex", justifyContent:"center", paddingTop:"100px"}} >
 
-                            <Button large node="a" className="blue-text grey darken-3 " target="_blank" href={require(`../../assets/documents/blue-WebDev.pdf`).default} >
+                            <Button large node="a" className="blue-text grey darken-3 " target="_blank" href={require(`../../assets/documents/blue-VehTestOps_QInsp_WebDevTS_SCI.pdf`).default} >
                                 <i className="fa fa-download"></i> Download Resume
                             </Button>
                       
